@@ -23,7 +23,7 @@ let data = [
     {
         image: "https://raw.githubusercontent.com/Neochaotics/r-place-windows/main/templates/98_Frame.png",
         label: "98 Frame",
-        pos: [1956, 0],
+        pos: [1957, 0],
         size: [43, 16],
         opacity: 1,
     }

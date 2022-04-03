@@ -8,7 +8,6 @@
 // @icon         https://raw.githubusercontent.com/Neochaotics/r-place-windows/main/media/98_Frame.png
 // @grant        none
 // ==/UserScript==
-
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
         for(let d of data) {

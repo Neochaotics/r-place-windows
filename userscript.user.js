@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Windows
+// @name         r/place Windows
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  r/place windows items
+// @description  r/place windows start, frame, cursor, etc
 // @author       Midokuni & Neochaotics
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://raw.githubusercontent.com/Neochaotics/r-place-windows/main/media/icon.png

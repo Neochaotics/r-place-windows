@@ -8,27 +8,6 @@
 // @icon         https://raw.githubusercontent.com/Neochaotics/r-place-windows/main/media/98_Frame.png
 // @grant        none
 // ==/UserScript==
-
-// Only need to change this for adding/removing/changing templates
-// Each {} set is 1 blueprint. 
-// image = url to the image of the blueprint
-// label = nothing, just something descriptive
-// pos = Position of the top left pixel of the blueprint. [x, y]
-//                                                  |
-// size = Size of the blueprint [width ----, height | ]
-//                                                  |
-// opacity = set this to 1. to change only on emergency.
-// Use pos = 0,0 and size = 1000,1000 when images cover the entire canvas
-let data = [  
-    {
-        image: "https://raw.githubusercontent.com/Neochaotics/r-place-windows/main/templates/98_Frame.png",
-        label: "98 Frame",
-        pos: [1956, 0],
-        size: [43, 16],
-        opacity: 1,
-    }
-]
-
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
         for(let d of data) {

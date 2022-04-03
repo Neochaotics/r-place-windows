@@ -5,7 +5,7 @@
 // @description  r/place windows items
 // @author       Midokuni & Neochaotics
 // @match        https://hot-potato.reddit.com/embed*
-// @icon         https://raw.githubusercontent.com/Neochaotics/r-place-windows/main/media/98_Frame.png
+// @icon         https://raw.githubusercontent.com/Neochaotics/r-place-windows/main/media/icon.png
 // @grant        none
 // ==/UserScript==
 

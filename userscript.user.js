@@ -26,7 +26,35 @@ let data = [
         pos: [1957, 0],
         size: [43, 16],
         opacity: 1,
-    }
+    },
+    {
+        image: "https://i.imgur.com/YkONOtj.png",
+        label: "Jerma Sus",
+        pos: [0, 0],
+        size: [1000, 1000],
+        opacity: 1,
+    },
+    {
+        image: "https://www.dropbox.com/s/0o6u1a0771qfd6d/overlay.png?raw=1",
+        label: "Gacha Alliance",
+        pos: [0,0],
+        size: [2000,2000],
+        opacity: 1,
+    },
+    {
+        image: "https://raw.githubusercontent.com/Midokuni/rplace/main/img/arona-b3.png",
+        label: "Blue Archive Base 3 - Arona + Shiroko",
+        pos: [1621, 441],
+        size: [90/3, 139/3],
+        opacity: 1,
+    },
+    {
+        image: "https://raw.githubusercontent.com/Midokuni/rplace/main/img/hifu-b1.png",
+        label: "Blue Archive Base 1 - Hifumi + Forkbot",
+        pos: [136, 963],
+        size: [162/3, 111/3],
+        opacity: 1,
+    },
 ]
 
 if (window.top !== window.self) {

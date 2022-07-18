@@ -26,7 +26,8 @@
 	{
 		background: #282828 !important;
 	}
-	.page-segment h1{
+	.page-segment h1
+	{
 		border-bottom: 3px solid #999966f2;
 	}
 	.dropdown-menu > li > a:hover
@@ -60,4 +61,3 @@
 		font-family: "Fira Mono", Fira, Helvetica !important;
 		color: #ffffffbf !important;
 	}
-}

@@ -8,7 +8,7 @@
 ==/UserStyle== */
 @-moz-document domain("wiki.fextralife.com")
 {
-	#sidebar-wrapper, div.ad-banner.hidden-xs, #at4-share, #content-add-a, a[href*="fextralife.com/be-a-vip"], picture, div.footer-sticky, div.hidden-xs, span.navsprite.miniring, div.vault-loder.top-right-vault
+	#sidebar-wrapper, div.ad-banner.hidden-xs, #at4-share, #content-add-a, a[href*="fextralife.com/be-a-vip"], picture, div.footer-sticky, div.hidden-xs, span.navsprite.miniring, div.vault-loder.top-right-vault, span.navsprite, #wiki-content-block > p:nth-child(2), #wiki-content-block > hr:nth-child(3), .page-segment h1::after, .page-segment h2::after, .page-segment h3::after, h3 > a > img
 	{
 		display: none !important;
 		width: 0 !important;
@@ -26,9 +26,8 @@
 	{
 		background: #282828 !important;
 	}
-	.page-segment.h1::after, .page-segment h2::after, .page-segment h3::after h1::after
-	{
-		background-color: #999966f2 !important;
+	.page-segment h1{
+		border-bottom: 3px solid #999966f2;
 	}
 	.dropdown-menu > li > a:hover
 	{
